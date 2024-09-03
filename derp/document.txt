@@ -1,0 +1,44 @@
+Arrays 
+------
+
+
+Truist CSV Headers = 
+	['Posted Date', 'Transaction Date', 'Transaction Type',
+	'Check/Serial #', 'Description', 'Amount', 'Daily Posted Balance']
+
+Google Sheets Arrays [
+
+	Google Sheets = [2021, 2022, 2023, 2024]
+
+	Google Sheets Columns = [0, 1, 2, 3, 4, 5]
+		0 = 'Date'
+		1 = 'Type'
+		2 = 'Income'
+		3 = 'Transaction'
+		4 = 'Description'
+		5 = 'Daily Net Amount'
+
+	Google Sheets Important Datapoints = 
+		Income   = [J9, J11, N9, N11, N16]
+			 J9 = Digital Sales
+			J11 = Cash Flow In
+			 N9 = Merch Sales
+			N11 = Royalties
+			N16 = Total Gross Profit
+		
+		Expenses = [J14, J15, J16, J17, J18, J19, J21]
+			J14 = Food
+			J15 = Gas 
+			J16 = Tax(30% of N16)
+			J17 = Content
+			J18 = Fees
+			J19 = Subs
+			J21 = Expense Total
+
+		Total Net Annual Profit = N21(Income + Expenses)
+	]
+
+
+
+
+
